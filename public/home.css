@@ -8,6 +8,7 @@
 body{
     background-color: #222831;
     color: #eeeeee;
+    overflow: hidden;
 }
 
 html {
@@ -461,6 +462,7 @@ nav .logo{
         transition: all 0.3s ease-in-out;
         cursor: pointer;
         background-color: #ffffff;
+        border-radius: 20%;
        
     }
 
