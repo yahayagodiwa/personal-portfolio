@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./output.css"> -->
+    <link rel="stylesheet" href="home.css">
+     <!-- <link rel="stylesheet" href="../src/output.css"> -->
+    <title>Portfolio</title>
+</head>
+<body>
+   
+
+    
+<!-- /* /////////// navbar /////////// */ -->
+    <nav>
+        <a href="/" class="logo">Prodigy<a/>
+        <ul class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="menu"><img src="images/category.png"</i>
+    </nav>
+    
+<!-- /* /////////// hero section /////////// */ -->
+
+    <section class="hero">
+        <div class="hero-text">
+            <h3>Hello !</h3>
+            <h1 class="text-green-500">I'm Professional Fullstack Web Developer</h1>
+            <p>Hello! I'm Yahya Godiwa. I'm Professional Web Developer & Freelancer.</p>
+            <p>Discover my projects and skills</p>
+            <div>
+            <button class="btn"><a href="#projects">See Projects</a></button>
+            <button class="btn2"><a href="#contact">Contact Me</a></button>
+        </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/profile.png" alt="Hero Image">
+        </div>
+    </section>
+
+<!-- /* /////////// About section /////////// */ -->
+
+<section class="about" id="about">
+    <div class="about-text">
+        <h2>About Me</h2>
+        <p>I'm Yahya Godiwa, a passionate web developer with a knack for creating dynamic and responsive web applications. I specialize in both front-end and back-end development, ensuring a seamless user experience.</p>
+        <p>With a strong foundation in HTML, CSS, JavaScript, and various frameworks (React.js, Next.js, Express.js Ejs, Nest.js), I am dedicated to delivering high-quality code and innovative solutions.</p>
+        <p>My goal is to bring ideas to life through technology and contribute to exciting projects that make a difference.</p>
+    </div>
+    <div class="about-count">
+        <div>
+            <div class="count">
+                <p>10</p>
+                <p>Happy Clients</p>
+            </div>
+            <div class="count">
+                <p>100</p>
+                <p>Sales</p>
+            </div>
+        </div>
+        <div>
+            <div class="count">
+                <p>500</p>
+                <p>Projects Complete</p>
+            </div>
+            <div class="count">
+                <p>5</p>
+                <p>Experience</p>
+            </div>
+        </div>
+      
+    </div>
+</section>
+
+<!-- /* /////////// Skills section /////////// */ -->
+
+<section class="skills" id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-list">
+        <div class="skill-item">
+            <img src="images/html.png" alt="HTML">
+            <p>HTML</p>
+        </div>
+        <div class="skill-item">
+            <img src="images/css.png" alt="CSS">
+            <p>CSS</p>
+        </div>
+        <div class="skill-item">
+            <img src="images/tailwind.jpg" alt="CSS">
+            <p>Tailwind</p>
+        </div>
+        <div class="skill-item">
+            <img src="images/js.png" alt="JavaScript">
+            <p>JavaScript</p>
+        </div>
+        <div class="skill-item">
+            <img src="images/react.png" alt="React">
+            <p>React</p>
+        </div>
+        <div class="skill-item">
+            <img src="images/next.jpg" alt="React">
+            <p>Next js</p>
+        </div>
+
+        <div class="skill-item">
+            <img src="images/node.jpg" alt="React">
+            <p>Node js</p>
+        </div>
+
+        <div class="skill-item">
+            <img src="images/express.png" alt="React">
+            <p>Express js</p>
+        </div>
+
+        <div class="skill-item">
+            <img src="images/ejs.png" alt="React">
+            <p>Ejs</p>
+        </div>
+
+    </div>
+    </section>
+
+<!-- /* /////////// Project section /////////// */ -->
+
+<section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <div class="project-list">
+        <div class="project-item">
+            <img src="images/bestprice.png" alt="bestprice">
+            <h3>Best Price</h3>
+            <p>A website that connect Professionals and clients that need their services</p>
+            <button class="btn"><a href="https://thebest-ng.vercel.app/">See Project</a></button>
+        </div>
+        <div class="project-item">
+            <img src="images/url.png" alt="url shortener">
+            <h3>URL Shortener</h3>
+            <p>A website that shortens long URLs into short ones</p>
+            <button class="btn"><a href="https://url-shortner-mu-mocha.vercel.app/">See Project</a></button>
+        </div>
+        <div class="project-item">
+            <img src="images/rest.png" alt="Project 3">
+            <h3>Restuarant Menu</h3>
+            <p>A website that displays a menu for a restaurant and allow user to filter thier prefrence</p>
+            <button class="btn"><a href="https://food-menu-js.vercel.app">See Project</a></button>
+        </div>
+    </div>
+</section>
+<!-- /* /////////// Contact section /////////// */ -->
+<section class="contact" id="contact">
+    <div class="contact-text">
+        <h2>Contact Me</h2>
+        <p>Have a question, an idea, or a project in mind? 
+            I’d love to hear from you! Whether you’re looking to build something new, improve an existing product, or just want to connect — feel free to drop a message. 
+            I’m always open to collaborations, freelance opportunities, or a simple chat about design and development.</p>
+        <p>Let’s connect and create something amazing together!</p>
+        <p class="email-parse">Contact me via email: prodigydigitalhub@gmail.com </p>
+        <p>Or fill out the form below:</p>
+        <p>I'll get back to you as soon as possible.</p>
+    </div>
+    <form action="/send-email" method="POST" class="contact-form">
+        <input type="text" name="subject" placeholder="Subject" required>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <div class="social-icons">
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
+            <a href="#"><img src="images/github.png" alt="GitHub"></a>
+        </div>
+        <p>&copy; 2023 Yahya Godiwa. All rights reserved.</p>
+    </div>
+</footer>
+
+<script>
+    const menuIcon = document.querySelector('.menu');
+    const navList = document.querySelector('.nav-list');
+
+    menuIcon.addEventListener('click', () => {
+        navList.classList.toggle('active');
+    });
+
+    // Close the menu when a link is clicked
+    const navLinks = document.querySelectorAll('.nav-list a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            navList.classList.remove('active');
+        });
+    });
+</script>
+</body>
+</html>

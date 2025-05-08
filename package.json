@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio with ejs",
+  "license": "ISC",
+  "author": "Yahya Godiwa",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.5",
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.2",
+    "nodemon": "^3.1.10",
+    "tailwindcss": "^4.1.5"
+  }
+}
